@@ -27,7 +27,7 @@ def assign_rooms(speakers_name)
   badge_room
 end
 
-def printer(badge_room, badge_messages)
+def printer(speakers_name)
   badge_room.each do
   badge_messages.each do  
     puts badge_room
