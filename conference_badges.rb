@@ -29,7 +29,7 @@ end
 
 def printer(badge_room)
   
-    badge_room
+    puts badge_room
     
 
 end
