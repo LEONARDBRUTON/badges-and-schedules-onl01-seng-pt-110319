@@ -28,9 +28,9 @@ def assign_rooms(speakers_name)
 end
 
 def printer(speakers_name)
-  batch_badge_creator.each do
+  batch_badge_creator(speakers_name).each do
     puts batch_badge_creator  
-  assign_rooms.each do  
+  assign_rooms(speakers_name).each do  
     puts assign_rooms
   end  
   end
