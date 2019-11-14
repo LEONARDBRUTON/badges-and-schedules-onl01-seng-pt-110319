@@ -30,10 +30,11 @@ end
 def printer(speakers_name)
   
   batch_badge_creator(speakers_name).each  do
-    puts batch_badge_creator  
+    puts batch_badge_creator
+    end
   assign_rooms(speakers_name).each do  
     puts assign_rooms
   end  
-  end
+  
 end
 
