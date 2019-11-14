@@ -31,7 +31,7 @@ def printer(badge_room, badge_messages)
   badge_room.each do
   badge_messages.each do  
     puts badge_room
-    
+  end  
   end
 end
 
