@@ -27,10 +27,10 @@ def assign_rooms(speakers_name)
   badge_room
 end
 
-def printer(assign_rooms, badge_room)
+def printer(badge_room)
   
     badge_room
     
 
 end
-=end
+
