@@ -27,13 +27,8 @@ def assign_rooms(speakers_name)
   badge_room
 end
 
-def printer(speakers_name)
-   batch_badge_creator(speakers_name).each  do |name|
-    end
-  assign_rooms(speakers_name).each do |count| 
-    end
- puts batch_badge_creator(speakers_name)
- puts assign_rooms(speakers_name)
-  
-end
-
+ArgumentError:
+       wrong number of arguments (given 0, expected 1)
+     # ./conference_badges.rb:11:in `batch_badge_creator'
+     # ./conference_badges.rb:37:in `printer'
+     # ./spec/conference_badges_spec.rb:105:in `block (3 levels) in <top (required)>'
