@@ -29,10 +29,10 @@ end
 
 def printer(speakers_name)
    batch_badge_creator(speakers_name).each  do |name|
-    puts batch_badge_creator
+   # puts batch_badge_creator
     end
   assign_rooms(speakers_name).each do |count| 
-    puts assign_rooms
+   # puts assign_rooms
   end
   batch_badge_creator
   assign_rooms
