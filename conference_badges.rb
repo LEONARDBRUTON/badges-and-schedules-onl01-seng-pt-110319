@@ -32,8 +32,8 @@ def printer(speakers_name)
     end
   assign_rooms(speakers_name).each do |count| 
     end
- puts batch_badge_creator
- puts assign_rooms
+ puts batch_badge_creator(speakers_name)
+ puts assign_rooms(speakers_name)
   
 end
 
